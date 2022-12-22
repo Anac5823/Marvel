@@ -96,9 +96,6 @@
                                             <color key="baseForegroundColor" red="0.63697028879999995" green="0.02384118818" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="baseBackgroundColor" red="0.75301337964607007" green="0.13856158027489635" blue="0.00620405422241315" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="H8E-og-WSj" kind="show" id="Z8w-Cy-VEV"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rP0-Iu-0Yp">
                                         <rect key="frame" x="107" y="731" width="180" height="37"/>
@@ -170,16 +167,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zkp-Gb-jY3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="765" y="127"/>
-        </scene>
-        <!--ResetPassword-->
-        <scene sceneID="jVV-88-ydK">
-            <objects>
-                <viewControllerPlaceholder storyboardName="ResetPassword" id="H8E-og-WSj" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="F8O-qb-368"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DQr-kJ-0OX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="709" y="214"/>
         </scene>
     </scenes>
     <resources>

@@ -16,7 +16,8 @@
 		12B87B8B2948FBB300AE884B /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B87B8A2948FBB300AE884B /* Registration.storyboard */; };
 		12B87B8D2948FBBF00AE884B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B87B8C2948FBBF00AE884B /* Home.storyboard */; };
 		12B87B8F2948FE9300AE884B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B87B8E2948FE9300AE884B /* Assets.xcassets */; };
-		12BE7A69294BC57000DCD699 /* ResetPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BE7A68294BC57000DCD699 /* ResetPassword.storyboard */; };
+		12BE7A6C2953736000DCD699 /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BE7A6B2953736000DCD699 /* Details.storyboard */; };
+		12BE7A6E295373DA00DCD699 /* Reset Password.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12BE7A6D295373DA00DCD699 /* Reset Password.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,8 @@
 		12B87B8A2948FBB300AE884B /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
 		12B87B8C2948FBBF00AE884B /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		12B87B8E2948FE9300AE884B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		12BE7A68294BC57000DCD699 /* ResetPassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ResetPassword.storyboard; sourceTree = "<group>"; };
+		12BE7A6B2953736000DCD699 /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
+		12BE7A6D295373DA00DCD699 /* Reset Password.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Reset Password.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				12B87B852948FB3400AE884B /* Login */,
 				12B87B872948FB5100AE884B /* Registration */,
 				12BE7A67294BC4AD00DCD699 /* Reset Password */,
+				12BE7A6A2953733800DCD699 /* Details */,
 				12B87B862948FB3D00AE884B /* Home */,
 			);
 			path = Marvel;
@@ -106,9 +109,17 @@
 		12BE7A67294BC4AD00DCD699 /* Reset Password */ = {
 			isa = PBXGroup;
 			children = (
-				12BE7A68294BC57000DCD699 /* ResetPassword.storyboard */,
+				12BE7A6D295373DA00DCD699 /* Reset Password.storyboard */,
 			);
 			path = "Reset Password";
+			sourceTree = "<group>";
+		};
+		12BE7A6A2953733800DCD699 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				12BE7A6B2953736000DCD699 /* Details.storyboard */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,11 +181,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B87B8B2948FBB300AE884B /* Registration.storyboard in Resources */,
-				12BE7A69294BC57000DCD699 /* ResetPassword.storyboard in Resources */,
+				12BE7A6C2953736000DCD699 /* Details.storyboard in Resources */,
 				12B87B892948FBA500AE884B /* Login.storyboard in Resources */,
 				12B87B7D2948F7C300AE884B /* LaunchScreen.storyboard in Resources */,
 				12B87B8D2948FBBF00AE884B /* Home.storyboard in Resources */,
 				12B87B8F2948FE9300AE884B /* Assets.xcassets in Resources */,
+				12BE7A6E295373DA00DCD699 /* Reset Password.storyboard in Resources */,
 				12B87B782948F7C000AE884B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
