@@ -53,7 +53,7 @@
         <!--Home-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="HomeViewController" customModule="Marvel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -170,6 +170,9 @@
                                                     <imageReference key="image" image="line.3.horizontal.circle" catalog="system" renderingMode="template"/>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="menuButtonClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fSx-gh-MZg"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -211,6 +214,9 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="5lF-8t-L14"/>
                     <connections>
+                        <outlet property="chronologicalCollection" destination="Ok4-az-pDC" id="JbI-ou-5QI"/>
+                        <outlet property="latestCollection" destination="jBI-rC-Uj0" id="4CC-Be-d6M"/>
+                        <outlet property="mostPopularCollection" destination="NYP-Ai-8GN" id="M0r-C0-bqM"/>
                         <segue destination="lUj-mK-pF4" kind="showDetail" id="yrG-cs-jhq"/>
                     </connections>
                 </viewController>
